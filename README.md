@@ -32,10 +32,11 @@ $ export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
 $ mkdir rockpi4-android-p
 $ cd rockpi4-android-p
 ```
+Requires 250G
 Then run:
 
 ```shell
-$ ~/bin/repo init -u https://github.com/radxa/manifests.git -b rockpi-box-9.0 -m rockpi-release.xml
+$ ~/bin/repo init -u https://github.com/kostya740/radxa_manifests.git -b rockpi-carpc-9.0 -m rockpi-release.xml
 $ repo sync -j$(nproc) -c
 ```
 It might take quite a bit of time to fetch the entire AOSP source code(around 86G)!

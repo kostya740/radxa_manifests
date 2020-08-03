@@ -6,6 +6,7 @@
   <remote fetch="https://gitlab.com/rockchip-group/" name="rk3399"/>
   <remote fetch="https://gitlab.com/rk-vendor/" name="rk-vendor"/>
   <remote fetch="https://github.com/rockchip-android/" name="rockchip-android"/>
+  <remote fetch="https://github.com/kostya740/" name="kostya740"/>
   
   <include name="RK3399_Android_Pie_release.xml" />
 
@@ -68,7 +69,7 @@
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="rk/device/rockchip/rksdk" path="device/rockchip/common" remote="rk-vendor" revision="bd506519e59004170d397587f64bd43dff8e65c4" upstream="rk3399-9.0">
+  <project name="rk-vendor_device_rockchip_rksdk" path="device/rockchip/common" remote="kostya740" revision="bd506519e59004170d397587f64bd43dff8e65c4" upstream="rk3399-carpc-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
