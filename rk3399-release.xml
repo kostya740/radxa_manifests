@@ -69,10 +69,13 @@
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="rk-vendor_device_rockchip_rksdk" path="device/rockchip/common" remote="kostya740" revision="bd506519e59004170d397587f64bd43dff8e65c4" upstream="rk3399-carpc-9.0">
+  <project name="rk-vendor_device_rockchip_rksdk" path="device/rockchip/common" remote="kostya740" revision="6b5da39906765908c141724eb16884330d3f982e" upstream="rk3399-carpc-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
+  </project>
+  <project name="radxa_shs" path="vendor/kostya740/shs" remote="kostya740" revision="6b5da39906765908c141724eb16884330d3f982e" upstream="rk3399-carpc-9.0">
+    <copyfile dest="rebuild.sh" src="rebuild.sh"/>
   </project>
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="8f46ced6192824cf000791131d2d70133f5c9b12" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk-vendor" revision="7001deaebd86ee701454e68818dd1cfadb1f0571" upstream="rk3399-9.0"/>
