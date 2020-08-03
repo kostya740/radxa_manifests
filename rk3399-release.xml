@@ -75,7 +75,7 @@
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
   <project name="radxa_shs" path="vendor/kostya740/shs" remote="kostya740" revision="385f42496b71cea8435ddd487a59550c37c07ad4" upstream="rk3399-carpc-9.0">
-    <copyfile dest="rebuild.sh" src="rebuild.sh"/>
+    <linkfile dest="rebuild.sh" src="rebuild.sh"/>
   </project>
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="8f46ced6192824cf000791131d2d70133f5c9b12" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk-vendor" revision="7001deaebd86ee701454e68818dd1cfadb1f0571" upstream="rk3399-9.0"/>
