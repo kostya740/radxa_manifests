@@ -4,9 +4,9 @@ Recommend build host is Ubuntu 16.04 64bit, for other hosts, refer official Andr
 
 
 ```shell
-$ mkdir -p ~/bin
-$ wget 'https://storage.googleapis.com/git-repo-downloads/repo' -P ~/bin
-$ chmod +x ~/bin/repo
+$ mkdir -p /usr/local/bin
+$ wget 'https://storage.googleapis.com/git-repo-downloads/repo' -P /usr/local/bin
+$ chmod +x /usr/local/bin/repo
 ```
 
 Android's source code primarily consists of Java, C++, and XML files. To compile the source code, you'll need to install OpenJDK 8, GNU C and C++ compilers, XML parsing libraries, ImageMagick, and several other related packages.
@@ -36,17 +36,10 @@ Requires 250G
 Then run:
 
 ```shell
-$ ~/bin/repo init -u https://github.com/kostya740/radxa_manifests.git -b rockpi-carpc-9.0 -m rockpi-release.xml
+$ repo init -u https://github.com/kostya740/radxa_manifests.git -b rockpi-carpc-9.0 -m rockpi-release.xml
 $ repo sync -j$(nproc) -c
 ```
 It might take quite a bit of time to fetch the entire AOSP source code(around 86G)!
-
-In China:
-Download Repo
-```shell
-$ curl https://mirrors.tuna.tsinghua.edu.cn/git/git-repo -o repo
-$ export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo/'
-```
 
 ## Build u-boot
 
@@ -78,8 +71,6 @@ The generated images are **boot.img**:
 ```shell
 $ source build/envsetup.sh
 $ lunch rk3399-userdebug
-# build Android TV
-$ lunch rk3399_box-userdebug
 $ make -j$(nproc)
 ```
 
@@ -118,11 +109,6 @@ The generated images under rockdev/Image are
 ```bash
 $ cd rockdev
 $ ln -s Image-rk3399 Image
-$ ./android-gpt.sh
-
-### Android TV
-$ cd rockdev
-$ ln -s Image-rk3399_box Image
 $ ./android-gpt.sh
 ```
 ```
