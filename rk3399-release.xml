@@ -80,7 +80,7 @@
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="8f46ced6192824cf000791131d2d70133f5c9b12" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk-vendor" revision="7001deaebd86ee701454e68818dd1cfadb1f0571" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk-vendor" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3399-9.0"/>
-  <project name="android_hardware_gps" path="vendor/kostya740/gps" remote="kostya740" revision="53fede939fc322c95e47df2c98578eba17925b62"/>
+  <project name="android_hardware_gps" path="hardware/kostya740/gps" remote="kostya740" revision="53fede939fc322c95e47df2c98578eba17925b62"/>
   <project name="radxa_kernel" path="kernel" remote="kostya740" revision="f88b8bd0de5fd0323fd4ce6102917554cf4dfa75" upstream="rk3399-carpc-9.0"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk-vendor" revision="7825e59f31cba3e07b7fc39a12223d8f1208eea5" upstream="rk3399-9.0"/>
   <project name="rk/u-boot" path="u-boot" remote="rk-vendor" revision="fcf3aab6214d8131b9de2ccef36c390dafbab94f" upstream="rk3399-9.0"/>
