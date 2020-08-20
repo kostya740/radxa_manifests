@@ -65,11 +65,11 @@
 
   <!-- rk -->
   <project name="RKTools" remote="rk-vendor" revision="8bc5619b40fa5166fddeb2607f2330317082c5c7" upstream="rk3399-9.0"/>
-  <project name="rk-vendor_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="kostya740" revision="9ea8acf8139ac755b162cd66c5e67615a2aae1f7" upstream="rk3399-carpc-9.0">
+  <project name="rk-vendor_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="kostya740" revision="c6e9f55d510b2a8b0376bb12efc61331070b8ac9" upstream="rk3399-carpc-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="rk-vendor_device_rockchip_rksdk" path="device/rockchip/common" remote="kostya740" revision="5e1957876fc616ec9c68ae9c6dbc685c63bcd2f2" upstream="rk3399-carpc-9.0">
+  <project name="rk-vendor_device_rockchip_rksdk" path="device/rockchip/common" remote="kostya740" revision="eb9231a6bfaf9bdfda58ea7c55841e2506e2cf7e" upstream="rk3399-carpc-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -81,8 +81,8 @@
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="8f46ced6192824cf000791131d2d70133f5c9b12" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk-vendor" revision="7001deaebd86ee701454e68818dd1cfadb1f0571" upstream="rk3399-9.0"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk-vendor" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3399-9.0"/>
-  <project name="android_hardware_gps" path="hardware/kostya740/gps" remote="kostya740" revision="ddee36d1f6ceac7c670d4b57d5fdb02f345eb513"/>
-  <project name="radxa_kernel" path="kernel" remote="kostya740" revision="f88b8bd0de5fd0323fd4ce6102917554cf4dfa75" upstream="rk3399-carpc-9.0"/>
+  <project name="android_hardware_gps" path="hardware/kostya740/gps" remote="kostya740" revision="db55d98745f332fcda43efd6df6f9da1e1dd116b"/>
+  <project name="radxa_kernel" path="kernel" remote="kostya740" revision="594ae7cd5a6c78cc23f23944a27d76d33219df69" upstream="rk3399-carpc-9.0"/>
   <project name="rk/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk-vendor" revision="7825e59f31cba3e07b7fc39a12223d8f1208eea5" upstream="rk3399-9.0"/>
   <project name="rk/u-boot" path="u-boot" remote="rk-vendor" revision="fcf3aab6214d8131b9de2ccef36c390dafbab94f" upstream="rk3399-9.0"/>
 
