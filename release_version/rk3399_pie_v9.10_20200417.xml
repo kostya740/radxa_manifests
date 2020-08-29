@@ -409,7 +409,7 @@
   <project groups="pdk" name="platform/external/zopfli" path="external/zopfli" revision="76d7da2a87daf777c20078f647f78f776d981fd0" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="platform/external/zxing" path="external/zxing" revision="fef49afe4875503e16db11ac40c964a8b6dfa702" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="platform/frameworks/av" path="frameworks/av" revision="e6bd009277fa2159c610854bce1730c520f37fe0" upstream="rk33/mid/9.0/develop"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="rk-aosp_frameworks_base" path="frameworks/base" remote="kostya740" revision="d1ba966b40146234393388d9edd4261776023564" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" revision="d1ba966b40146234393388d9edd4261776023564" upstream="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="0eb6892d0ef78a5689b84b26ad19f7a3a7fec9cd" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="84b34b244b6bae8c1855bf763e676f10e5eb3d91" upstream="refs/tags/android-9.0.0_r50"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="ee51c122e2f0d4443c6c5d7a03f6c0f86cd31216" upstream="refs/tags/android-9.0.0_r50"/>
