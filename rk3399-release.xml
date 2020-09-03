@@ -66,11 +66,11 @@
 
   <!-- rk -->
   <project name="RKTools" remote="rk-vendor" revision="8bc5619b40fa5166fddeb2607f2330317082c5c7" upstream="rk3399-9.0"/>
-  <project name="rk-vendor_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="kostya740-hub" revision="203965b586b4224f62d3136859dcc69b6c84e077" upstream="rk3399-carpc-9.0">
+  <project name="rk-vendor_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="kostya740-lab" revision="203965b586b4224f62d3136859dcc69b6c84e077" upstream="rk3399-carpc-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="rk-vendor_device_rockchip_rksdk" path="device/rockchip/common" remote="kostya740-hub" revision="f45084e5f4c5047654acd68bada2714afe9451a5" upstream="rk3399-carpc-9.0">
+  <project name="rk-vendor_device_rockchip_common" path="device/rockchip/common" remote="kostya740-lab" revision="f45084e5f4c5047654acd68bada2714afe9451a5" upstream="rk3399-carpc-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
