@@ -54,7 +54,7 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project groups="pdk-cw-fs,pdk-fs" name="rk-vendor_frameworks_base" path="frameworks/base" remote="kostya740-lab" revision="42d739152b537613d831475810d758f55cb8ef8d" upstream="rk3399-9.0"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="rk-vendor_frameworks_base" path="frameworks/base" remote="kostya740-lab" revision="41faf43e129d0a90964f84505851c57aa205b374" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" remote="rk-vendor" revision="6c1d304d2c2d1484dac7d622101857a30afa7467" upstream="rk3399-9.0"/>
   <project groups="pdk-fs" remote="rk-vendor" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="fb089e72e0278d4ce9c0165e62a93a19b28fe2be" upstream="rk3399-9.0"/>
   <project groups="pdk" name="platform/system/core" path="system/core" remote="rk-vendor" revision="bc3c9190d4df686eecb0deafcb71e4b55772814f" upstream="rk3399-9.0"/>
@@ -66,11 +66,11 @@
 
   <!-- rk -->
   <project name="RKTools" remote="rk-vendor" revision="8bc5619b40fa5166fddeb2607f2330317082c5c7" upstream="rk3399-9.0"/>
-  <project name="rk-vendor_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="kostya740-lab" revision="203965b586b4224f62d3136859dcc69b6c84e077" upstream="rk3399-carpc-9.0">
+  <project name="rk-vendor_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="kostya740-lab" revision="665c151ca1b1c933f3536119b838bc0979e66213" upstream="rk3399-carpc-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="rk-vendor_device_rockchip_common" path="device/rockchip/common" remote="kostya740-lab" revision="f45084e5f4c5047654acd68bada2714afe9451a5" upstream="rk3399-carpc-9.0">
+  <project name="rk-vendor_device_rockchip_common" path="device/rockchip/common" remote="kostya740-lab" revision="69961cba5e36f4c2b963f9decde312dd37d2f842" upstream="rk3399-carpc-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
